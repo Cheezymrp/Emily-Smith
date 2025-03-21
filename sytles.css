@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: skyblue;
+}
+
+header {
+    background-color:gray;
+    color: white;
+    padding: 15px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    background-color: skyblue;
+    padding: 50px 20px;
+}
+
+.hero .btn {
+    display: inline-block;
+    background-color:black;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.portfolio .gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.portfolio .gallery .item {
+    width: 30%;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+}
+
+.contact input, .contact textarea {
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.contact button {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: none;
+}
+img {
+    width: 100%;
+    height: auto;
+
+}
+.container {
+    width: 60%;
+    margin: auto;
+    text-align: left;
+    padding: 20px;
+}
+
+a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
